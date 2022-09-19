@@ -81,7 +81,7 @@ header nav{
 }
 
 .demo_application{
-    height: 50vh;
+    
     background-color: antiquewhite;
 }
 
@@ -93,4 +93,19 @@ header nav{
 .partners{
     background-color: antiquewhite;
 
+}
+
+.benefits{
+   
+    background-color: #9792E4;
+}
+
+.about_us{
+    background-color: antiquewhite;
+   
+}
+
+.call_to_action{
+    background-color: #9792E4;
+    height: 50vh;
 }
