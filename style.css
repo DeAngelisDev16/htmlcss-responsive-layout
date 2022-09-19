@@ -80,6 +80,28 @@ header nav{
     padding: 1rem 0;
 }
 
+ul{
+    list-style: none;
+}
+
+li{
+    padding-right: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.button{
+    color: black;
+    background-color: white;
+    padding: 0.5rem 0.5rem;
+    
+}
+
+
+
 .demo_application{
     
     background-color: antiquewhite;
