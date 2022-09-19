@@ -107,5 +107,11 @@ header nav{
 
 .call_to_action{
     background-color: #9792E4;
-    height: 50vh;
+    
+}
+
+footer{
+    background-color: black;
+    height: 30vh;
+    color: white;
 }
