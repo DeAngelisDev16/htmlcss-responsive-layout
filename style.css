@@ -25,14 +25,18 @@ section-2: 9792E4;
 
 .col-8{
     width: calc(100% / 12 * 8);
+    border: 1px solid red;
 }
 
 .col-6{
     width: calc(100% / 12 * 6);
+    border: 1px solid red;
+
 }
 
 .col-4{
     width: calc(100% / 12 * 4);
+    border: 1px solid red;
 }
 
 /* /utilities */
@@ -46,4 +50,9 @@ header nav{
     display: flex;
     justify-content: space-between;
     padding: 1rem 0;
+}
+
+.demo_application{
+    height: 50vh;
+    background-color: antiquewhite;
 }
