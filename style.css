@@ -67,6 +67,16 @@ section{
     flex-wrap: wrap;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text_align{
+    text-align: center;
+}
+
 /* /utilities */
 
 header{
@@ -100,13 +110,39 @@ a{
     
 }
 
-
-
-.demo_application{
-    
-    background-color: antiquewhite;
+.button_appstore{
+    background-color: #0084FD;
+    color: white;
+    text-decoration: none;
 }
 
+
+
+/* demo_application-region */
+
+.demo_application .col-8, .col-4{
+    background-color: #B5DDFF;
+}
+
+.card h3, p, .button_appstore{
+    margin: 2rem;
+}
+
+#phone{
+    width: 40%;
+    float: right;
+    margin-right: 2rem;
+    
+}
+
+.fa-solid{
+    font-size: 50px;
+    margin-top: 1.5rem;
+    
+}
+
+
+/* demo_application-endregion */
 .strategic_plan{
     background-color:  #9792E4;
     
