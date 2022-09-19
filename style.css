@@ -63,6 +63,10 @@ section{
     align-items: center;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 /* /utilities */
 
 header{
@@ -83,7 +87,7 @@ header nav{
 
 .strategic_plan{
     background-color:  #9792E4;
-    height: 50vh;
+    
 }
 
 .partners{
