@@ -204,7 +204,7 @@ a{
     
 }
 
-.strategic_plan h3{
+.strategic_card h3{
     padding: 1rem;
     margin-top: 3rem;
     color: white;
@@ -213,18 +213,52 @@ a{
     
  }
 
-.strategic_plan p{
+.strategic_card p{
     color: white;
     margin-left: 7.5rem;
 }
 
 
-.planning{
-    width: 50%;
+#planning_1{
+    width: 60%;
     align-self: center;
     margin-top: 3rem;
    
 }
+
+#planning_2{
+    width: 50%;
+    object-fit: contain;
+}
+.developement_card{
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    border-radius: 5%;
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+    
+   
+.developement_card h3{
+    color: black;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.fa-arrow-down-long{
+    font-size: 20px;
+    background-color: #9792E4;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}    
+   
+
+
+/* strategic-plan-endregion */
+
+    
+    
 
 
 .partners{
