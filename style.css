@@ -303,3 +303,27 @@ footer{
     color: white;
 }
 
+
+/* MEDIA-QUERIES */
+
+/* Versione tablet */
+
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 720px;
+
+    }
+
+    col-6{
+        width: 768px;
+
+    }
+
+    
+    
+}
+
+    
+
+
