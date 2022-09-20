@@ -12,11 +12,13 @@ section-2: 9792E4;
  */
 
 /* Utilities */
+body{
+    font-family: 'PT Sans', sans-serif ;
+}
+
 section{
     padding: 2rem 0;
 }
-
-
 
 .container{
     width: 70%;
@@ -105,7 +107,7 @@ section{
 
 h3 ~ p{
     padding: 1.5rem;
-
+    
 }
 
 /* /utilities */
@@ -202,8 +204,25 @@ a{
     
 }
 
+.strategic_plan h3{
+    padding: 1rem;
+    margin-top: 3rem;
+    color: white;
+    margin-left: 8rem;
+   
+    
+ }
+
+.strategic_plan p{
+    color: white;
+    margin-left: 7.5rem;
+}
+
+
 .planning{
     width: 50%;
+    align-self: center;
+    margin-top: 3rem;
    
 }
 
