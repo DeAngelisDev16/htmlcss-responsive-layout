@@ -56,6 +56,7 @@ section{
 .col-3{
     width: calc(100% / 12 * 3);
     border-radius: 5%;
+    background-color: #B5DDFF;
    
 }
 
@@ -63,6 +64,11 @@ section{
 .d_flex{
     display: flex;
 }
+
+.col_direction{
+    flex-direction: column;
+}
+
 
 .center_x{
     justify-content: center;
@@ -95,6 +101,8 @@ section{
     vertical-align: ;
 }
 
+
+
 /* /utilities */
 
 header{
@@ -124,7 +132,8 @@ a{
 .button{
     color: black;
     background-color: white;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
     
 }
 
@@ -133,24 +142,31 @@ a{
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    border-radius: 1rem;
 }
 
 
 
 /* demo_application-region */
 
-.demo_application .col-8, .col-4{
-    background-color: #B5DDFF;
-}
 
-.card h3, p, .button_appstore{
+
+.demo_application .card h3, p, .button_appstore{
     margin: 2rem;
 }
 
+.demo_application .card{
+    width: 90%;
+    background-color: #B5DDFF;
+    border-radius: 5%;
+}
+    
+
+
+
 #phone{
     width: 40%;
-    float: right;
-    margin-right: 2rem;
+    
     
 }
 
@@ -166,9 +182,7 @@ a{
     color: #0084FD;
 }
 
-.demo_application .col-8, .col-4{
-    margin-bottom: 1rem;
-}
+
 
 
 /* demo_application-endregion */
@@ -181,6 +195,7 @@ a{
 
 .planning{
     width: 50%;
+   
 }
 
 
@@ -209,3 +224,4 @@ footer{
     height: 30vh;
     color: white;
 }
+
