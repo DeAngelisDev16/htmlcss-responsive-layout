@@ -83,7 +83,9 @@ section{
     flex-wrap: wrap;
 }
 
-
+.gap{
+    row-gap: 2rem;
+}
 
 
 
@@ -101,7 +103,10 @@ section{
     vertical-align: ;
 }
 
+h3 ~ p{
+    padding: 1.5rem;
 
+}
 
 /* /utilities */
 
@@ -143,6 +148,7 @@ a{
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
+    margin-left: 1.5rem;
 }
 
 
@@ -151,14 +157,15 @@ a{
 
 
 
-.demo_application .card h3, p, .button_appstore{
-    margin: 2rem;
+.demo_application h3{
+   padding: 1rem;
 }
 
 .demo_application .card{
     width: 90%;
     background-color: #B5DDFF;
     border-radius: 5%;
+    
 }
     
 
@@ -166,9 +173,11 @@ a{
 
 #phone{
     width: 40%;
-    
-    
 }
+    
+.fa-apple{
+    margin-right: 0.5rem;
+}    
 
 
 
