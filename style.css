@@ -31,7 +31,9 @@ section{
 
 .col-12{
     width: calc(100% / 12 * 12);
-    border: 1px solid red;
+    background-color: #9792E4;
+    border-radius: 1rem 1rem;
+   
 }
 
 
@@ -235,7 +237,7 @@ a{
     text-align: center;
     width: 60%;
     border-radius: 5%;
-    margin-top: 11rem;
+    margin-top: 10rem;
     margin-left: 2rem;
 }
     
@@ -258,13 +260,27 @@ a{
 /* strategic-plan-endregion */
 
     
-    
+/* partners-section-region */    
 
-
-.partners{
-    background-color: antiquewhite;
-
+.testimonials div, h2, p{
+    margin-bottom: 1rem;
 }
+
+.testimonials h2{
+    color: #9792E4;
+}
+.testimonials_img{
+    width: 20%;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.partners_card_text{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    color: white;
+}
+
 
 .benefits{
    
